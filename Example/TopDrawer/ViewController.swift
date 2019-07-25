@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Pods_TopDrawer_Example
 
 class ViewController: UIViewController {
     private let titleLabel = UILabel()
