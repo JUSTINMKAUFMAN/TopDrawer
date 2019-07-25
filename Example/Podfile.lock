@@ -1,0 +1,16 @@
+PODS:
+  - TopDrawer (1.0.0)
+
+DEPENDENCIES:
+  - TopDrawer (from `../`)
+
+EXTERNAL SOURCES:
+  TopDrawer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TopDrawer: 352e0dc15bc0d5918ed2527cca324ef018e09c1c
+
+PODFILE CHECKSUM: 7958dfeada7c8ae5b245813523ac36fad5139c4b
+
+COCOAPODS: 1.7.3

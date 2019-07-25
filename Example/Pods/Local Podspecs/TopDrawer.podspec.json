@@ -1,0 +1,22 @@
+{
+  "name": "TopDrawer",
+  "version": "1.0.0",
+  "summary": "A top drawer that can be pulled up/down over the screen, written in Swift.",
+  "description": "A top drawer that can be pulled up/down over the screen, written in Swift. Stays on top of the visible hierarchy. Does not prevent interaction with content underneath the drawer (as is the case with modal drawers).",
+  "homepage": "https://github.com/JUSTINMKAUFMAN/TopDrawer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Justin Kaufman": "jmkauf@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/JUSTINMKAUFMAN/TopDrawer.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TopDrawer/Classes/**/*"
+}
