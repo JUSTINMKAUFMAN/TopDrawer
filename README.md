@@ -6,7 +6,9 @@
 
 A top drawer that can be pulled up/down over the screen, written in Swift.
 
-![Example GIF](https://github.com/JUSTINMKAUFMAN/TopDrawer/TopDrawer.gif)
+<p align="center">
+    <img src="/TopDrawer.gif" />
+</p>
 
 ## Features
 
