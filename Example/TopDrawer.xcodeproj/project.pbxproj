@@ -12,9 +12,26 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		D0A5D28022EA446B0023B285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5D27F22EA446B0023B285 /* ViewController.swift */; };
+		D0A5D28622EA4E880023B285 /* TopDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A5D28522EA4E880023B285 /* TopDrawer.framework */; };
+		D0A5D28722EA4E880023B285 /* TopDrawer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0A5D28522EA4E880023B285 /* TopDrawer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D0A5D28822EA4E880023B285 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D0A5D28722EA4E880023B285 /* TopDrawer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3D3DA22E8BB57D81185BB1F8 /* Pods-TopDrawer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDrawer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopDrawer_Example/Pods-TopDrawer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TopDrawer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDrawer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -22,7 +39,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60C43885211A9051C6367A20 /* Pods-TopDrawer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDrawer_Example.debug.xcconfig"; path = "Target Support Files/Pods-ResizingTokenField_Example/Pods-TopDrawer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71EEA1C31927BE8D11AE0357 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BAD78CCF578A08E367222395 /* Pods-TopDrawer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDrawer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopDrawer_Example/Pods-TopDrawer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0A5D27F22EA446B0023B285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0A5D28322EA4E460023B285 /* TopDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A5D28522EA4E880023B285 /* TopDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24F0E0804052F89A59BEC41 /* TopDrawer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TopDrawer.podspec; path = ../TopDrawer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC499174570BF7451721BB6E /* Pods_TopDrawer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopDrawer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4E199C85C096F1DFC382C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -34,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A5D28622EA4E880023B285 /* TopDrawer.framework in Frameworks */,
 				4153906CFA7BDAADEE2188E4 /* Pods_TopDrawer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +65,7 @@
 		06F4C4B291D7ECFE3510A01E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0A5D28322EA4E460023B285 /* TopDrawer.framework */,
 				FC499174570BF7451721BB6E /* Pods_TopDrawer_Example.framework */,
 			);
 			name = Frameworks;
@@ -52,6 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				D0A5D28522EA4E880023B285 /* TopDrawer.framework */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TopDrawer */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -104,6 +127,8 @@
 			children = (
 				60C43885211A9051C6367A20 /* Pods-TopDrawer_Example.debug.xcconfig */,
 				FF4D1655E26AC9B312EE70F1 /* Pods-TopDrawer_Example.release.xcconfig */,
+				3D3DA22E8BB57D81185BB1F8 /* Pods-TopDrawer_Example.debug.xcconfig */,
+				BAD78CCF578A08E367222395 /* Pods-TopDrawer_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -120,6 +145,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				C21DD260136024C2E21BDE08 /* [CP] Embed Pods Frameworks */,
+				D0A5D28822EA4E880023B285 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,16 +211,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ResizingTokenField_Example/Pods-ResizingTokenField_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ResizingTokenField/ResizingTokenField.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-TopDrawer_Example/Pods-TopDrawer_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TopDrawer/TopDrawer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResizingTokenField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TopDrawer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ResizingTokenField_Example/Pods-ResizingTokenField_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopDrawer_Example/Pods-TopDrawer_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFD36F09B981A1B030346EB2 /* [CP] Check Pods Manifest.lock */ = {
@@ -212,7 +238,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ResizingTokenField_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TopDrawer_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -352,7 +378,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60C43885211A9051C6367A20 /* Pods-TopDrawer_Example.debug.xcconfig */;
+			baseConfigurationReference = 3D3DA22E8BB57D81185BB1F8 /* Pods-TopDrawer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YU9GKRD8PL;
@@ -368,7 +394,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4D1655E26AC9B312EE70F1 /* Pods-TopDrawer_Example.release.xcconfig */;
+			baseConfigurationReference = BAD78CCF578A08E367222395 /* Pods-TopDrawer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YU9GKRD8PL;

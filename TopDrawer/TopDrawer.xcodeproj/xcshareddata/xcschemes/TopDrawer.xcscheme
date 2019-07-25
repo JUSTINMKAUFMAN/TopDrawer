@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BE6EBDF522BA74B200B9A872"
-               BuildableName = "ResizingTokenField.app"
-               BlueprintName = "ResizingTokenField"
+               BuildableName = "TopDrawer.app"
+               BlueprintName = "TopDrawer"
                ReferencedContainer = "container:TopDrawer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BE6EBDF522BA74B200B9A872"
-            BuildableName = "ResizingTokenField.app"
-            BlueprintName = "ResizingTokenField"
+            BuildableName = "TopDrawer.app"
+            BlueprintName = "TopDrawer"
             ReferencedContainer = "container:TopDrawer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BE6EBDF522BA74B200B9A872"
-            BuildableName = "ResizingTokenField.app"
-            BlueprintName = "ResizingTokenField"
+            BuildableName = "TopDrawer.app"
+            BlueprintName = "TopDrawer"
             ReferencedContainer = "container:TopDrawer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BE6EBDF522BA74B200B9A872"
-            BuildableName = "ResizingTokenField.app"
-            BlueprintName = "ResizingTokenField"
+            BuildableName = "TopDrawer.app"
+            BlueprintName = "TopDrawer"
             ReferencedContainer = "container:TopDrawer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

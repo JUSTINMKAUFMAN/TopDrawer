@@ -11,6 +11,7 @@
 		BE6EBE0122BA74B400B9A872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6EBE0022BA74B400B9A872 /* Assets.xcassets */; };
 		BE6EBE0422BA74B400B9A872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6EBE0222BA74B400B9A872 /* LaunchScreen.storyboard */; };
 		D0A5D28222EA4AB10023B285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5D28122EA4AB10023B285 /* ViewController.swift */; };
+		D0A5D28D22EA4ED60023B285 /* TopDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5D28B22EA4ED60023B285 /* TopDrawer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BE6EBE0322BA74B400B9A872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE6EBE0522BA74B400B9A872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A5D28122EA4AB10023B285 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Example/TopDrawer/ViewController.swift; sourceTree = "<group>"; };
+		D0A5D28B22EA4ED60023B285 /* TopDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopDrawer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,8 @@
 		BE6EBDED22BA74B200B9A872 = {
 			isa = PBXGroup;
 			children = (
+				D0A5D28E22EA4EEC0023B285 /* Assets */,
+				D0A5D28922EA4ED60023B285 /* Classes */,
 				BE6EBDF822BA74B200B9A872 /* TopDrawer */,
 				BE6EBDF722BA74B200B9A872 /* Products */,
 			);
@@ -59,6 +63,21 @@
 				BE6EBE0522BA74B400B9A872 /* Info.plist */,
 			);
 			path = TopDrawer;
+			sourceTree = "<group>";
+		};
+		D0A5D28922EA4ED60023B285 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0A5D28B22EA4ED60023B285 /* TopDrawer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D0A5D28E22EA4EEC0023B285 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +152,7 @@
 			files = (
 				D0A5D28222EA4AB10023B285 /* ViewController.swift in Sources */,
 				BE6EBDFA22BA74B200B9A872 /* AppDelegate.swift in Sources */,
+				D0A5D28D22EA4ED60023B285 /* TopDrawer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

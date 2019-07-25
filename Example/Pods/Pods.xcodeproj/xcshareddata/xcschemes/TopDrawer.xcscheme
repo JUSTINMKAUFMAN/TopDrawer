@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E8543EAC5D3070BBE5E7C2E020FB0CE"
-               BuildableName = "ResizingTokenField.framework"
+               BlueprintIdentifier = "4214490DE1F0520647FD77B058F5B28E"
+               BuildableName = "TopDrawer.framework"
                BlueprintName = "TopDrawer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E8543EAC5D3070BBE5E7C2E020FB0CE"
-            BuildableName = "ResizingTokenField.framework"
+            BlueprintIdentifier = "4214490DE1F0520647FD77B058F5B28E"
+            BuildableName = "TopDrawer.framework"
             BlueprintName = "TopDrawer"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E8543EAC5D3070BBE5E7C2E020FB0CE"
-            BuildableName = "ResizingTokenField.framework"
+            BlueprintIdentifier = "4214490DE1F0520647FD77B058F5B28E"
+            BuildableName = "TopDrawer.framework"
             BlueprintName = "TopDrawer"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
