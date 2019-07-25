@@ -12,8 +12,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		D0A5D28022EA446B0023B285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5D27F22EA446B0023B285 /* ViewController.swift */; };
-		D0A5D28622EA4E880023B285 /* TopDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A5D28522EA4E880023B285 /* TopDrawer.framework */; };
-		D0A5D28722EA4E880023B285 /* TopDrawer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0A5D28522EA4E880023B285 /* TopDrawer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D0A5D28722EA4E880023B285 /* TopDrawer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +39,6 @@
 		BAD78CCF578A08E367222395 /* Pods-TopDrawer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDrawer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopDrawer_Example/Pods-TopDrawer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0A5D27F22EA446B0023B285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0A5D28322EA4E460023B285 /* TopDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0A5D28522EA4E880023B285 /* TopDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24F0E0804052F89A59BEC41 /* TopDrawer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TopDrawer.podspec; path = ../TopDrawer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC499174570BF7451721BB6E /* Pods_TopDrawer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopDrawer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4E199C85C096F1DFC382C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -54,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A5D28622EA4E880023B285 /* TopDrawer.framework in Frameworks */,
 				4153906CFA7BDAADEE2188E4 /* Pods_TopDrawer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,7 +69,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				D0A5D28522EA4E880023B285 /* TopDrawer.framework */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TopDrawer */,
 				607FACD11AFB9204008FA782 /* Products */,

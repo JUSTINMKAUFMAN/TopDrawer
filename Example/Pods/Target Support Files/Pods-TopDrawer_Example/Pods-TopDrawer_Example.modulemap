@@ -1,0 +1,6 @@
+framework module Pods_TopDrawer_Example {
+  umbrella header "Pods-TopDrawer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

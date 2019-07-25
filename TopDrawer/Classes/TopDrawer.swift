@@ -18,12 +18,12 @@ public class TopDrawer: UIView {
         return UIScreen.main.bounds.size
     }()
 
-    convenience init(backgroundColor: UIColor) {
+    public convenience init(backgroundColor: UIColor) {
         self.init()
         self.backgroundColor = backgroundColor
     }
 
-    init() {
+    public init() {
         super.init(frame: .zero)
         setupView()
     }
