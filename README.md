@@ -23,7 +23,7 @@ A top drawer that can be pulled up/down over the screen, written in Swift.
 TopDrawer is available through [CocoaPods](https://cocoapods.org). To install it, add the following to your `Podfile`:
 
 ```ruby
-pod 'TopDrawer', '~> 1.0.0'
+pod 'TopDrawer', '~> 0.1.1'
 ```
 
 ### Carthage
@@ -31,7 +31,7 @@ pod 'TopDrawer', '~> 1.0.0'
 To install via [Carthage](https://github.com/Carthage/Carthage), add the following to your `Cartfile`:
 
 ```ogdl
-github "JUSTINMKAUFMAN/TopDrawer" "1.0.0"
+github "JUSTINMKAUFMAN/TopDrawer" "0.1.1"
 ```
 
 ## Usage
