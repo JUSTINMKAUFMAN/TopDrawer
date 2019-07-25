@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import TopDrawer
 
 class ViewController: UIViewController {
     private let titleLabel = UILabel()
@@ -75,6 +74,6 @@ private extension ViewController {
     }
 
     @objc func didTapToggle(_ sender: UIButton) {
-        
+        topDrawer.toggleVisibility()
     }
 }
