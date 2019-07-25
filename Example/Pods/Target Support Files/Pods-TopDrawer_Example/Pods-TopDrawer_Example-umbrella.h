@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ResizingTokenField_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ResizingTokenField_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_TopDrawer_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_TopDrawer_ExampleVersionString[];
 

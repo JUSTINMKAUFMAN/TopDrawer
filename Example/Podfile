@@ -2,8 +2,4 @@ use_frameworks!
 
 target 'TopDrawer_Example' do
   pod 'TopDrawer', :path => '../'
-
-  target 'TopDrawer_Tests' do
-    inherit! :search_paths
-  end
 end

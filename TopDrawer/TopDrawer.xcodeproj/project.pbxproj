@@ -77,7 +77,7 @@
 			dependencies = (
 			);
 			name = TopDrawer;
-			productName = ResizingTokenField;
+			productName = TopDrawer;
 			productReference = BE6EBDF622BA74B200B9A872 /* TopDrawer.app */;
 			productType = "com.apple.product-type.application";
 		};

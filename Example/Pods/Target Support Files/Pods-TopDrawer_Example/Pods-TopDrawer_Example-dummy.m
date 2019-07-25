@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_ResizingTokenField_Example : NSObject
+@interface PodsDummy_Pods_TopDrawer_Example : NSObject
 @end
-@implementation PodsDummy_Pods_ResizingTokenField_Example
+@implementation PodsDummy_Pods_TopDrawer_Example
 @end

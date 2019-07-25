@@ -15,16 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D6541F32C4CAAEC3F011C36 /* Pods-TopDrawer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDrawer_Tests.release.xcconfig"; path = "Target Support Files/Pods-ResizingTokenField_Tests/Pods-TopDrawer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TopDrawer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDrawer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60C43885211A9051C6367A20 /* Pods-TopDrawer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDrawer_Example.debug.xcconfig"; path = "Target Support Files/Pods-ResizingTokenField_Example/Pods-TopDrawer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		666C515F24D695CC3EBB8C24 /* Pods_TopDrawer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopDrawer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EEA1C31927BE8D11AE0357 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BF35ABC1B31EC164CDEB3E95 /* Pods-TopDrawer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDrawer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ResizingTokenField_Tests/Pods-TopDrawer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0A5D27F22EA446B0023B285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D24F0E0804052F89A59BEC41 /* TopDrawer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TopDrawer.podspec; path = ../TopDrawer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC499174570BF7451721BB6E /* Pods_TopDrawer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopDrawer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				FC499174570BF7451721BB6E /* Pods_TopDrawer_Example.framework */,
-				666C515F24D695CC3EBB8C24 /* Pods_TopDrawer_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,8 +104,6 @@
 			children = (
 				60C43885211A9051C6367A20 /* Pods-TopDrawer_Example.debug.xcconfig */,
 				FF4D1655E26AC9B312EE70F1 /* Pods-TopDrawer_Example.release.xcconfig */,
-				BF35ABC1B31EC164CDEB3E95 /* Pods-TopDrawer_Tests.debug.xcconfig */,
-				1D6541F32C4CAAEC3F011C36 /* Pods-TopDrawer_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
