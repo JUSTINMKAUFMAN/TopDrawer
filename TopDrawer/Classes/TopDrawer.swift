@@ -12,17 +12,16 @@ import UIKit
 public class TopDrawer: UIView {
     public var isVisible: Bool {
         get { return _isVisible }
-        set { toggleVisibility() }
+        set {
+            guard newValue != _isVisible else { return }
+            toggleVisibility()
+        }
     }
 
     private var _isVisible: Bool = true
 
     private lazy var panGestureRecognizer: UIPanGestureRecognizer = {
         return UIPanGestureRecognizer(target: self, action: #selector(self.didPanDrawer(_:)))
-    }()
-
-    private lazy var screenSize: CGSize = {
-        return UIScreen.main.bounds.size
     }()
 
     public convenience init(backgroundColor: UIColor) {
@@ -45,8 +44,8 @@ public class TopDrawer: UIView {
         UIView.animate(
             withDuration: 0.5,
             delay: 0.0,
-            usingSpringWithDamping: 0.25,
-            initialSpringVelocity: 2.5,
+            usingSpringWithDamping: 2.0,
+            initialSpringVelocity: 0.75,
             options: .curveEaseInOut,
             animations: {
                 self.frame = newFrame
@@ -142,7 +141,7 @@ private extension TopDrawer {
         return CGRect(
             x: 0.0,
             y: -Constants.height,
-            width: screenSize.width,
+            width: UIScreen.main.bounds.size.width,
             height: Constants.height
         )
     }
@@ -151,7 +150,7 @@ private extension TopDrawer {
         return CGRect(
             x: 0.0,
             y: -(Constants.height - Constants.minimumVisibleHeight),
-            width: screenSize.width,
+            width: UIScreen.main.bounds.size.width,
             height: Constants.height
         )
     }
@@ -160,7 +159,7 @@ private extension TopDrawer {
         return CGRect(
             x: 0.0,
             y: 0.0,
-            width: screenSize.width,
+            width: UIScreen.main.bounds.size.width,
             height: Constants.height
         )
     }
@@ -170,6 +169,6 @@ private extension TopDrawer {
     struct Constants {
         static let height: CGFloat = UIScreen.main.bounds.size.height - Constants.minimumVisibleHeight
         static let cornerRadius: CGFloat = 22.0
-        static let minimumVisibleHeight: CGFloat = 64.0
+        static let minimumVisibleHeight: CGFloat = 76.0
     }
 }
