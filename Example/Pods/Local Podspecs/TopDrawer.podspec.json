@@ -1,6 +1,6 @@
 {
   "name": "TopDrawer",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "summary": "A top drawer that can be pulled down over the screen.",
   "homepage": "https://github.com/JUSTINMKAUFMAN/TopDrawer.git",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/JUSTINMKAUFMAN/TopDrawer.git",
-    "tag": "1.0.0"
+    "tag": "0.1.1"
   },
   "swift_version": "5.0",
   "platforms": {

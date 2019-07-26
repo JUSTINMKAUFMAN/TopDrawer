@@ -10,6 +10,13 @@ import Foundation
 import UIKit
 
 public class TopDrawer: UIView {
+    public var isVisible: Bool {
+        get { return _isVisible }
+        set { toggleVisibility() }
+    }
+
+    private var _isVisible: Bool = true
+
     private lazy var panGestureRecognizer: UIPanGestureRecognizer = {
         return UIPanGestureRecognizer(target: self, action: #selector(self.didPanDrawer(_:)))
     }()
@@ -33,35 +40,33 @@ public class TopDrawer: UIView {
     }
 
     public func toggleVisibility() {
-        let fadeIn: Bool = (alpha == 0.0)
+        let newFrame: CGRect = !_isVisible ? startingFrame() : hiddenFrame()
 
         UIView.animate(
-            withDuration: 0.3,
-            animations: { [weak self] in
-                guard let self = self else { return }
-                self.alpha = fadeIn ? 1.0 : 0.0
+            withDuration: 0.5,
+            delay: 0.0,
+            usingSpringWithDamping: 0.25,
+            initialSpringVelocity: 2.5,
+            options: .curveEaseInOut,
+            animations: {
+                self.frame = newFrame
+                self.layoutIfNeeded()
             }
-        )
+        ) { _ in
+            self._isVisible.toggle()
+        }
     }
 }
 
 private extension TopDrawer {
     func setupView() {
-        let height: CGFloat = screenSize.height - Constants.minimumVisibleHeight
-        let startingOrigin: CGPoint = CGPoint(x: 0.0, y: -(height - Constants.minimumVisibleHeight))
-
-        frame = CGRect(
-            x: startingOrigin.x,
-            y: startingOrigin.y,
-            width: screenSize.width,
-            height: height
-        )
+        frame = startingFrame()
 
         backgroundColor = UIColor.lightGray.withAlphaComponent(0.525)
-        layer.masksToBounds = true
 
         // Keep the drawer at the top of the visible hierarchy
         layer.zPosition = CGFloat(Float.greatestFiniteMagnitude)
+        layer.masksToBounds = true
 
         let maskPath = UIBezierPath(
             roundedRect: bounds,
@@ -130,8 +135,40 @@ private extension TopDrawer {
             gestureRecognizer.setTranslation(CGPoint.zero, in: self)
         }
     }
+}
 
+private extension TopDrawer {
+    func hiddenFrame() -> CGRect {
+        return CGRect(
+            x: 0.0,
+            y: -Constants.height,
+            width: screenSize.width,
+            height: Constants.height
+        )
+    }
+
+    func startingFrame() -> CGRect {
+        return CGRect(
+            x: 0.0,
+            y: -(Constants.height - Constants.minimumVisibleHeight),
+            width: screenSize.width,
+            height: Constants.height
+        )
+    }
+
+    func fullFrame() -> CGRect {
+        return CGRect(
+            x: 0.0,
+            y: 0.0,
+            width: screenSize.width,
+            height: Constants.height
+        )
+    }
+}
+
+private extension TopDrawer {
     struct Constants {
+        static let height: CGFloat = UIScreen.main.bounds.size.height - Constants.minimumVisibleHeight
         static let cornerRadius: CGFloat = 22.0
         static let minimumVisibleHeight: CGFloat = 64.0
     }
